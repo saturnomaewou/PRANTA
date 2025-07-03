@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvores e Plantas em Extinção</title>
+  <style>
+    body {
+      /* Imagem centralizada e fixa */
+      background: url(fundoprincipal.png) no-repeat center center fixed;
+    
+      /* Faz a imagem cobrir toda a tela, redimensionando proporcionalmente */
+      background-size: cover;
+    
+      font-family: Arial, sans-serif;
+      color: #1ee7da;
+      padding: 20px;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      body {
+        /* Torna o fundo rolável para evitar problemas de renderização */
+        background-attachment: scroll;
+      }
+    }
+    
+    h1 {
+      color: #066426fb;
+    }
+    .conteudo {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 1.6;
+    }
+    ul {
+      list-style-type: square;
+    }
+    /* Estilização dos botões */
+    button {
+      background-color: green;       /* Botões verdes */
+      color: white;
+      font-size: 22px;               /* Texto maior */
+      padding: 15px 30px;            /* Botões maiores */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Árvores e Plantas em Extinção no Brasil</h1>
+  <div class="conteudo">
+    <p>
+      As florestas brasileiras abrigam uma biodiversidade rica, mas muitas espécies estão ameaçadas de extinção devido ao desmatamento,
+      à exploração madeireira e à expansão agrícola.
+    </p>
+    
+    <h2>Espécies Ameaçadas:</h2>
+    <ul>
+      <li><strong>Pau-brasil</strong> (Caesalpinia echinata)</li>
+      <li><strong>Araucária</strong> (Araucaria angustifolia)</li>
+      <li><strong>Jacarandá-da-bahia</strong> (Dalbergia nigra)</li>
+      <li><strong>Imbuia</strong> (Ocotea porosa)</li>
+      <li><strong>Peroba-rosa</strong> (Aspidosperma polyneuron)</li>
+      <li><strong>Pau-rosa</strong> (Aniba rosaeodora)</li>
+    </ul>
+
+    <p>
+      A conservação dessas espécies é essencial para o equilíbrio dos ecossistemas e o futuro da biodiversidade brasileira. 
+      Campanhas de reflorestamento, educação ambiental e fiscalização são medidas importantes nesse processo.
+    </p>
+  </div>
+  <button onclick="window.location.href='arvores.html'">Árvores</button>
+  <button onclick="window.location.href='postos.html'">Postos</button>
+</body>
+</html>
